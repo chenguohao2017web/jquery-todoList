@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="node_modules/jquery-datetimepicker/build/jquery.datetimepicker.min.css">
+    <link rel="stylesheet" href="base.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="msg">
+        <span class="msg-content"></span>
+        <span class="anchor">get it!</span class="anchor">
+    </div>
+    <div class="container">
+        <h1>jquery todo</h1>
+        <form class="add-task">
+            <input name="content" type="text" placeholder="remember me chen" autofocus autocomplete="off">
+            <button type="submit">submit</button>
+        </form>
+        <div class="task-list">
+        </div>
+        <div class="task-detail-mask"></div>
+        <div class="task-detail">
+
+        </div>
+    </div>
+    <script src="node_modules/store.js/store.js"></script>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/jquery-datetimepicker/build/jquery.datetimepicker.full.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
